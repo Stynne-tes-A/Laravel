@@ -63,10 +63,11 @@
                 <div class="col-span-12 lg:col-span-6 grid grid-cols-2 gap-3 ">
 
                     {{-- Send message button --}}
-                    <a href="#" type="button"
-                        class=" inline-flex justify-center font-bold items-center  rounded-lg  text-sm p-1.5 px-2 transition  bg-gray-200 hover:bg-slate-100 ">
-                        Edit profile
-                    </a>
+  
+                    <!-- In your main profile page, add a link to edit the profile -->
+                    <a href="{{ route('profile.edit') }}" class="inline-block text-center px-6 py-3 rounded-lg text-white bg-blue-500 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-200">
+    Edit Profile
+</a>
 
                 </div>
 
